@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <script src="./scripts/main.js" type="module" defer></script>
+    <script>
+      let CURRENCY_DEFAULT = 'GBP';
+      let CURRENCY_WORD = 'pounds';
+      let CURRENCY_FORMAT = 'en-HU';
+      let CURRENCY_SIGN_LOCATION = 'after';
+      let VALUE_SEPARATOR = true;
+      let FIXED_AMOUNT_EUR = 250;
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <section>
+        <p>
+          <em>data-js-deposit:</em>
+          <span data-js-deposit></span>
+        </p>
+
+        <p>
+          <em>data-js-deposit-multiply:</em>
+          <span data-js-deposit-multiply="74.3"></span>
+        </p>
+
+        <p>
+          <em>data-js-deposit-multiply-round:</em>
+          <span data-js-deposit-multiply-round="74.3"></span>
+        </p>
+
+        <p>
+          <em>data-js-deposit-multiply-word:</em>
+          <span data-js-deposit-round-up data-js-deposit-multiply-word="7"></span>
+        </p>
+
+        <p>
+          <em>data-js-deposit-multiply-bignumber:</em>
+          <span data-js-deposit-multiply-bignumber="5000000"></span>
+        </p>
+
+        <p>
+          <em>data-js-deposit-multiply-bignumber-noword:</em>
+          <span data-js-deposit-multiply-bignumber-noword="5000000"></span>
+        </p>
+      </section>
+    </div>
+  </body>
+</html>
